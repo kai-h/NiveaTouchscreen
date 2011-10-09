@@ -103,6 +103,7 @@ td {
 	height: 100%;
 	font-size: 32px;
 	line-height: 25px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
 }
 
 .navigation-buttons td {
@@ -137,6 +138,7 @@ td {
 	color: white;
 	width: 330px;
 	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
 }
 
 #product-description h1 {
