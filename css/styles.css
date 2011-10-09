@@ -112,6 +112,43 @@ td {
 	padding-top: 30px;
 }
 
+#button-previous {
+	position: absolute;
+	top: 200px;
+	left: 20px;
+}
+
+#button-next {
+	position: absolute;
+	top: 200px;
+	right: 52px;
+}
+
+#product-shot {
+	position: absolute;
+	top: 150px;
+	left: 130px;	
+}
+
+#product-description {
+	position: absolute;
+	top: 180px;
+	left: 390px;
+	color: white;
+	width: 330px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#product-description h1 {
+	font-weight: bold;
+	font-size: 22px;
+	margin-bottom: 12px;
+}
+
+#product-description p {
+	font-size: 18px;
+}
+
 .clear {
 	clear:both;
 }
