@@ -149,6 +149,19 @@ td {
 	font-size: 18px;
 }
 
+#button-back {
+	position: absolute;
+	top: 35px;
+	left: 690px;
+	font-size: 40px;
+}
+
+#button-back a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .clear {
 	clear:both;
 }
