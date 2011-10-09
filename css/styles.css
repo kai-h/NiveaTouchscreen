@@ -26,6 +26,7 @@ time, mark, audio, video {
 }
 body {
 	line-height: 1;
+	width: 800px;
 }
 ol, ul {
 	list-style: none;
@@ -46,8 +47,8 @@ table {
 /* My styles begin here*/
 
 #header {
-	background-color: #3100ff;
-	height: 3em;
+	width: 800px;
+	height: 116px;
 }
 
 #header h1 {
@@ -74,9 +75,41 @@ td {
 }
 
 .theme-default #slider {
-    margin:20px auto 0 auto;
-    width:618px; /* Make sure your images are the same size */
-    height:246px; /* Make sure your images are the same size */
+    margin:0 auto 0 auto;
+    width:800px; /* Make sure your images are the same size */
+    height:364px; /* Make sure your images are the same size */
+}
+
+.navigation-buttons {	
+	position: absolute;
+	top: 400px;
+	margin: 0;
+	z-index: 10;
+}
+
+.six-buttons {
+	top: 224px;
+}
+
+.four-buttons {
+	top: 312px;
+}
+
+.navigation-buttons a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 32px;
+	line-height: 25px;
+}
+
+.navigation-buttons td {
+	background: url(../images/home-screen-button.png) no-repeat 9px;
+	border-style: none;
+	padding-bottom: 10px;
+	padding-top: 30px;
 }
 
 .clear {
