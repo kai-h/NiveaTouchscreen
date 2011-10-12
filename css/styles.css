@@ -129,7 +129,7 @@ td {
 #button-next {
 	position: absolute;
 	top: 200px;
-	right: 52px;
+	left: 720px;
 }
 
 #product-shot {
@@ -159,17 +159,46 @@ td {
 }
 
 #button-back {
+	width: 100px;
+	height: 40px;
+	background: url(../images/blue-button.png) no-repeat;
 	position: absolute;
 	top: 35px;
 	left: 690px;
-	font-size: 40px;
+	padding-top: 6px;
+	padding-left: 12px;
 }
 
-#button-back a {
+#button-home {
+width: 100px;
+height: 40px;
+background: url(../images/blue-button.png) no-repeat;
+	position: absolute;
+	top: 35px;
+	left: 570px;
+	padding: 6px;
+}
+
+#button-back a, #button-home a {
 	color: white;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.7);
 	font-weight: bold;
 	text-decoration: none;
+	font-size: 28px;
+	position: relative;
 }
+
+/*#button-back a {
+	position: relative;
+	top: 6px;
+	left: 14px;
+}
+
+#button-home a {
+	position: relative;
+	top: 6px;
+	left: 9px;
+}*/
 
 .clear {
 	clear:both;
