@@ -24,6 +24,12 @@ time, mark, audio, video {
 	font-family: sans-serif;
 	font-style: inherit;
 }
+
+@font-face {
+	font-family: "Nivea-Light";
+	src: url(../fonts/NiveaLight.ttf);
+}
+
 body {
 	line-height: 1;
 	width: 800px;
@@ -96,6 +102,7 @@ td {
 }
 
 .navigation-buttons a {
+	font-family: "Nivea-Light";
 	color: white;
 	text-decoration: none;
 	display: block;
