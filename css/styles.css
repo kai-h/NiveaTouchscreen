@@ -170,9 +170,9 @@ td {
 }
 
 #button-home {
-width: 100px;
-height: 40px;
-background: url(../images/blue-button.png) no-repeat;
+	width: 100px;
+	height: 40px;
+	background: url(../images/blue-button.png) no-repeat;
 	position: absolute;
 	top: 35px;
 	left: 570px;
@@ -187,18 +187,6 @@ background: url(../images/blue-button.png) no-repeat;
 	font-size: 28px;
 	position: relative;
 }
-
-/*#button-back a {
-	position: relative;
-	top: 6px;
-	left: 14px;
-}
-
-#button-home a {
-	position: relative;
-	top: 6px;
-	left: 9px;
-}*/
 
 .clear {
 	clear:both;
